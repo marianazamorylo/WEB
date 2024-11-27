@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOWER BOUTIQUE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="Flower Boutique Logo">
+                <span>Flower Boutique</span>
+          
+            <div class="burger-menu" onclick="toggleMenu()">
+             &#9776; 
+            </div>
+
+
+             <div class="mobile-menu" id="mobileMenu">
+             <span class="close-btn" onclick="toggleMenu()">&#10006;</span> 
+             <a href="#bouquet-gallery" onclick="toggleMenu()">Букети</a>
+             <a href="#respond-section" onclick="toggleMenu()">Відгуки</a>
+             <a href="#order_form" onclick="toggleMenu()">Замовлення</a>
+             </div>
+
+       
+            </div>
+            
+            <nav> 
+                <a href="#bouquet-gallery">Букети</a>
+                <a href="#respond-section">Відгуки</a> 
+                <a href="#order_form">Замовлення</a> 
+            </nav>
+            <div class="contact-cart">
+                <span>вул. Степана Бандери 14<br> <a href="tel:+380686823905">0686823905</a></span>
+                <img src="images/koshyk.png" alt="Shopping Cart">
+            </div>
+            <div class="burger">
+                <span></span>
+            </div>
+        </header>
+    
+        <section class="hero-section">
+            <video autoplay muted loop playsinline>
+                <source src="images/videobanner.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Flower Boutique</h1>
+                <p>Подаруйте радість своїм близьким — оберіть найкращі квіти в нашому магазині та зробіть кожен момент особливим!</p>
+                <a href="#" class="order-button">Оформити замовлення</a>
+            </div>
+        </section>
+        
+        <div id="bouquet-gallery" class="bouquet-gallery">
+            <div class="bouquet-item">
+                <img src="images/pink_bouquet.png" alt="Pink Bouquet">
+                <p class="price">4599 грн</p>
+                <button class="select-btn">Вибрати букет</button>
+            </div>
+            <div class="bouquet-item">
+                <img src="images/peach_bouquet.png" alt="Peach Bouquet">
+                <p class="price">2849 грн</p>
+                <button class="select-btn">Вибрати букет</button>
+            </div>
+            <div class="bouquet-item">
+                <img src="images/blueandwhite_bouquet.png" alt="Blue and White Bouquet">
+                <p class="price">2449 грн</p>
+                <button class="select-btn">Вибрати букет</button>
+            </div>
+        </div>
+    
+        <div class="bouquet-gallery2">
+            <div class="bouquet-item2">
+                <img src="images/pink_boquet2.png" alt="Pink Bouquet2">
+                <p class="price">3599 грн</p>
+                <button class="select-btn">Вибрати букет</button>
+            </div>
+            <div class="bouquet-item">
+                <img src="images/blueandpink_boquet.png" alt="Blue and Pink Bouquet">
+                <p class="price2">3749 грн</p>
+                <button class="select-btn">Вибрати букет</button>
+            </div>
+            <div class="bouquet-item2">
+                <img src="images/daisies.png" alt="Daisies">
+                <p class="price">2549 грн</p>
+                <button class="select-btn2">Вибрати букет</button>
+            </div>
+        </div>
+    
+        <div class="store-section">
+            <div class="store-info">
+                <h2>Завітайте до нашої крамнички!</h2>
+                <p>Тут ви зможете зібрати букет для вашої особливої події або забрати вже зроблене раніше замовлення.</p>
+                <p>вул. Степана Бандери 14</p>
+            </div>
+            <div class="store-images">
+                <img src="images/map.png" alt="Map">
+            </div>
+        </div>
+    
+        <section class="promotions-section">
+            <div><h2>Акційні пропозиції:</h2></div>
+            <div class="promotions-gallery">
+                <div class="promotion-item">
+                    <img src="images/disb1.png" alt="Акційний букет 1">
+                    <p class="original-price">3599 грн</p>
+                    <p class="discounted-price">3299 грн</p>
+                    <button class="select-btn">Вибрати букет</button>
+                </div>
+                <div class="promotion-item">
+                    <img src="images/disb2.png" alt="Акційний букет 2">
+                    <p class="original-price">3749 грн</p>
+                    <p class="discounted-price">3199 грн</p>
+                    <button class="select-btn">Вибрати букет</button>
+                </div>
+                <div class="promotion-item">
+                    <img src="images/disb3.png" alt="Акційний букет 3">
+                    <p class="original-price">2549 грн</p>
+                    <p class="discounted-price">2199 грн</p>
+                    <button class="select-btn">Вибрати букет</button>
+                </div>
+            </div>
+        </section>
+    
+        <section id="respond-section" class="respond-section">
+            <div><h2>Відгуки:</h2></div>
+            <div class="respond-gallery">
+                <div class="respond-item">
+                    <img src="images/respond1.png" alt="Відгук 1">
+                </div>
+                <div class="respond-item">
+                    <img src="images/respond2.png" alt="Відгук 2">
+                </div>
+                <div class="respond-item">
+                    <img src="images/respond3.png" alt="Відгук 3">
+                </div>
+            </div>
+        </section>
+    
+       
+        <section id="order_form" class="order_form">
+            <div class="order-container">
+                <h2>Оформіть замовлення</h2>
+                <form class="order-form">
+                    <div class="form-group">
+                        <label for="first-name">Ім'я:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Введіть ваше ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Прізвище:</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Введіть ваше прізвище" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефону:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Електронна пошта:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Оформити замовлення</button>
+                </form>
+            </div>
+        </section>
+        
+        <section class="pricing-section">
+            <div class="pricing-container">
+                <div class="price-card">
+                    <h3>Самовивіз</h3>
+                    <p>Безкоштовно</p>
+                </div>
+                <div class="price-card">
+                    <h3>Доставка квітів</h3>
+                    <p>500 грн</p>
+                </div>
+                <div class="price-card">
+                    <h3>Експрес-доставка</h3>
+                    <p>700 грн</p>
+                </div>
+            </div>
+        </section>
+       
+       
+        <footer>
+            <div class="logofooter">
+                <img src="images/logo.png" alt="Flower Boutique Logo">
+                <span>Flower Boutique</span>
+            </div>
+            <nav>
+                <a href="#bouquet-gallery">Композиції</a>
+                <a href="#bouquet-gallery">Букети</a>
+                <a href="#promotions-section">Подарунки</a>
+            </nav>
+            <div class="contact-cartfooter">
+                <span>вул. Степана Бандери 14<br> <a href="tel:+380686823905">0686823905</a></span>
+            </div>
+        </footer>
+    </body>
+    
+
+<script>function toggleMenu() {
+    const mobileMenu = document.getElementById("mobileMenu");
+    mobileMenu.style.display = mobileMenu.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
+   
+     
+</body>
+</html>
